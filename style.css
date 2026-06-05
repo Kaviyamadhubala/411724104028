@@ -1,0 +1,95 @@
+/* p{
+    font-size:xx-large;
+    font-weight:bolder;
+} */
+h1{
+    padding:20px;
+    border:20px solid green;
+    margin:20px;
+}
+img{
+    height: 500px;
+    width: 500px;
+    /* border-radius:500px; */
+    
+}
+video{
+    width:500px;
+   
+}
+.imgvideo{
+    background-color:aliceblue;
+    padding:50px;
+}
+#p1{
+    font-weight:600;
+    font-style:italic;
+}
+#p2{
+    font-style:italic;
+}
+nav{
+    display:flex;
+    flex-direction:row;
+    gap:20px;
+}
+ol{
+    list-style-type:upper-roman;
+}
+ul{
+    list-style-type:none;
+}
+table,td,th{
+    border:1px solid palegoldenrod;
+    border-collapse:collapse;
+}
+th{
+    background-color:paleturquoise;
+}
+button{
+    background-color:blueviolet;
+    border-radius:
+}
+button:hover{
+    background-color:brown;
+}
+h1:hover{
+    color:peru;
+}
+form{
+    height:500px;
+    width:50%;
+    background-color:peachpuff;
+    padding:50px;
+    border-radius:100px;
+
+}
+.grid{
+    display:grid;
+    width:100%;
+    grid-template-columns:33% 33% 33%;
+}
+#one{
+    /* grid-row:1/2; */
+    background-color:pink;
+}
+#two{
+    /* grid-row:1/2; */
+    background-color: coral;
+}
+#three{
+    /* grid-row:1/2; */
+    background-color: darkmagenta;
+}
+#four{
+    /* grid-row:2/3; */
+    background-color: darkcyan;
+}
+#five{
+    /* grid-row:2/3; */
+    background-color: darkolivegreen;
+}
+#six{
+    /* grid-row:2/3; */
+    background-color: firebrick;
+}

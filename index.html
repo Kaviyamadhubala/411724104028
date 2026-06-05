@@ -1,23 +1,62 @@
 < !DOCTYPE <html>
     <head>
     <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <style>
+        body{
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style> -->
     </head>
-    <body>
-        <p>This is my first class</p>
+    <body style="color:#6342f5;background-color:black"></body>
+        <p id="p1">This is my first class</p>
+        <p id="p2">This is my second class</p>
         <h1> Heading 1</h1>
         <h2> Heading 2</h2>
         <h3> Heading 3</h3>
         <h4> Heading 4</h4>
         <h5> Heading 5</h5>
         <h6> Heading 6</h6>
-        <img src="download (1).jpg" alt="image" width="500" height="500">
-        <video width="320" height="240" controls>
-            <Source src="video.mp4" type="video/mp4">
-        </video>
+        <div class="imgvideo">
+            <img src="download (1).jpg" alt="image" width="500" height="500">
+        </div>
+        <div class="imgvideo">
+            <video width="320" height="240" controls>
+                <Source src="video.mp4" type="video/mp4">
+            </video>
+        </div>
+        <ol>
+            <li>1st point</li>
+            <li>2nd point</li>
+            <li>3rd point</li>
+        </ol>
         <ul>
             <li>1st point</li>
             <li>2nd point</li>
         </ul>
+        <div class="grid">
+            <div id="one">1</div>
+            <div id="two">2</div>
+            <div id="three">3</div>
+            <div id="four">4</div>
+            <div id="five">5</div>
+            <div id="six">6</div>
+        </div>
+        <div>
+            <div class="Pets">
+                <div id="Pet1"></div>
+                    <img src="img1.JPG">
+            </div>
+            <div id="Pet2"></div>
+                <img src="img2.JPG">
+        </div>
+            <div id="Pet3">
+                <img src="img3.JPG">
+            </div>
+            <div id="Pet4"></div>
+                <img src="img4.JPG">
+            </div>
+        </div>
         <table>
             <tr>
                 <th>1</th>
@@ -37,6 +76,8 @@
         <nav>
             <a href="https://google.com">Google</a>
             <a href="https://amazon.in">Amazon</a>
+            <a>Events</a>
+            <a>Contact</a>
         </nav>
         <form>
             <label>Email: </label>
@@ -59,5 +100,6 @@
             <textarea rows="4" cols="3">Textarea</textarea><br>
             <button>Submit</button>
         </form>
+
     </body>
 </html>
