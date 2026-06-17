@@ -16,12 +16,12 @@ body{
     padding:10px 15px;
     border-radius:5px;
 }
-@media(min-width:760px){
+/* @media(min-width:760px){
     .navbar{
         flex-direction: row;
         gap:30px;
     }
-}
+} */
 .image{
     width:300px;
     border-radius:50px;
@@ -75,7 +75,7 @@ th,td{
     text-align: center;
     background-color: lightblue;
 }
-@media(max-width:765px){
+@media(min-width:765px){
     .grid-container{
         grid-template-columns:repeat(2,1fr);
     }
